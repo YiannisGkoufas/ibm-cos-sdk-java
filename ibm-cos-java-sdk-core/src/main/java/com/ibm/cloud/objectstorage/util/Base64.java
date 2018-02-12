@@ -59,7 +59,7 @@ public enum Base64 {
         if (bytes == null)
             return null;
         try {
-            return DatatypeConverter.printBase64Binary(bytes);
+            return android.util.Base64.encodeToString(bytes, android.util.Base64.NO_WRAP);
         } catch (NullPointerException ex) {
             // https://netbeans.org/bugzilla/show_bug.cgi?id=224923
             // https://issues.apache.org/jira/browse/CAMEL-4893

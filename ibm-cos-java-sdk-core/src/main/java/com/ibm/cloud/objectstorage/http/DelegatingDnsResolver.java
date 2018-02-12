@@ -17,10 +17,10 @@ package com.ibm.cloud.objectstorage.http;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
-import org.apache.http.conn.DnsResolver;
+import cz.msebera.android.httpclient.conn.DnsResolver;
 
 /**
- * Implements the {@link org.apache.http.conn.DnsResolver} interface,
+ * Implements the {@link cz.msebera.android.httpclient.conn.DnsResolver} interface,
  * taking in a {@link com.ibm.cloud.objectstorage.DnsResolver} implementation and executing its
  * {@link com.ibm.cloud.objectstorage.DnsResolver#resolve(String)} method to perform the
  * actual DNS resolution.

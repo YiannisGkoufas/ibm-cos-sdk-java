@@ -242,7 +242,7 @@ import java.util.concurrent.Future;
 import java.util.regex.Matcher;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.client.methods.HttpRequestBase;
+import cz.msebera.android.httpclient.client.methods.HttpRequestBase;
 
 /**
  * <p>
@@ -285,7 +285,8 @@ public class AmazonS3Client extends AmazonWebServiceClient implements AmazonS3 {
 
     static {
         // Enable S3 specific predefined request metrics.
-        AwsSdkMetrics.addAll(Arrays.asList(S3ServiceMetric.values()));
+        //Disable for Android
+        //AwsSdkMetrics.addAll(Arrays.asList(S3ServiceMetric.values()));
 
         // Register S3-specific signers.
         SignerFactory.registerSigner(S3_SIGNER, S3Signer.class);

@@ -40,8 +40,8 @@ import com.ibm.cloud.objectstorage.http.response.ErrorDuringUnmarshallingRespons
 import com.ibm.cloud.objectstorage.http.response.HttpResponseProxy;
 import com.ibm.cloud.objectstorage.http.response.NullResponseHandler;
 
-import org.apache.http.client.methods.HttpRequestBase;
-import org.apache.http.protocol.HttpContext;
+import cz.msebera.android.httpclient.client.methods.HttpRequestBase;
+import cz.msebera.android.httpclient.protocol.HttpContext;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

@@ -16,7 +16,7 @@ package com.ibm.cloud.objectstorage.retry;
 
 import java.util.HashSet;
 import java.util.Set;
-import org.apache.http.HttpStatus;
+import cz.msebera.android.httpclient.HttpStatus;
 
 import com.ibm.cloud.objectstorage.AmazonServiceException;
 import com.ibm.cloud.objectstorage.SdkBaseException;

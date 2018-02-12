@@ -24,7 +24,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.client.methods.HttpRequestBase;
+import cz.msebera.android.httpclient.client.methods.HttpRequestBase;
 
 /**
  * Does EOS detection for objects returned by S3. Will abort the HTTP connection if not all data is read

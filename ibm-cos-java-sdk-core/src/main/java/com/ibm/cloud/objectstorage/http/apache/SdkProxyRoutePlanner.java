@@ -14,12 +14,12 @@
  */
 package com.ibm.cloud.objectstorage.http.apache;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.impl.conn.DefaultRoutePlanner;
-import org.apache.http.impl.conn.DefaultSchemePortResolver;
-import org.apache.http.protocol.HttpContext;
+import cz.msebera.android.httpclient.HttpException;
+import cz.msebera.android.httpclient.HttpHost;
+import cz.msebera.android.httpclient.HttpRequest;
+import cz.msebera.android.httpclient.impl.conn.DefaultRoutePlanner;
+import cz.msebera.android.httpclient.impl.conn.DefaultSchemePortResolver;
+import cz.msebera.android.httpclient.protocol.HttpContext;
 
 import com.ibm.cloud.objectstorage.annotation.SdkInternalApi;
 import com.ibm.cloud.objectstorage.http.apache.client.impl.ApacheHttpClientFactory;

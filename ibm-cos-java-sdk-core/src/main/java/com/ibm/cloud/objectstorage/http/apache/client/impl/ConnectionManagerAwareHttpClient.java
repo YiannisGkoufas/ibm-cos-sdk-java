@@ -14,8 +14,8 @@
  */
 package com.ibm.cloud.objectstorage.http.apache.client.impl;
 
-import org.apache.http.client.HttpClient;
-import org.apache.http.conn.HttpClientConnectionManager;
+import cz.msebera.android.httpclient.client.HttpClient;
+import cz.msebera.android.httpclient.conn.HttpClientConnectionManager;
 
 /**
  * An extension of Apache's HttpClient that expose the connection manager

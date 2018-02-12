@@ -87,6 +87,10 @@ import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.XMLReaderFactory;
 
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+
 /**
  * XML Sax parser to read XML documents returned by S3 via the REST interface,
  * converting these documents into objects.
@@ -106,9 +110,14 @@ public class XmlResponsesSaxParser {
     public XmlResponsesSaxParser() throws SdkClientException {
         // Ensure we can load the XML Reader.
         try {
-            xr = XMLReaderFactory.createXMLReader();
+            //modify for Android
+            SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
+            SAXParser newSAXParser = saxParserFactory.newSAXParser();
+            xr = newSAXParser.getXMLReader();
         } catch (SAXException e) {
             throw new SdkClientException("Couldn't initialize a SAX driver to create an XMLReader", e);
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
         }
     }
 

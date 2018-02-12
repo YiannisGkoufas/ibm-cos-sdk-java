@@ -23,7 +23,7 @@ import java.io.ByteArrayOutputStream;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.apache.http.client.methods.HttpRequestBase;
+import cz.msebera.android.httpclient.client.methods.HttpRequestBase;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

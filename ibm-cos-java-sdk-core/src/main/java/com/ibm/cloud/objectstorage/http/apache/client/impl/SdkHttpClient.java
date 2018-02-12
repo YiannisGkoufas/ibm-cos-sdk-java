@@ -14,17 +14,17 @@
  */
 package com.ibm.cloud.objectstorage.http.apache.client.impl;
 
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.ResponseHandler;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.conn.ClientConnectionManager;
-import org.apache.http.conn.HttpClientConnectionManager;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.HttpContext;
+import cz.msebera.android.httpclient.HttpHost;
+import cz.msebera.android.httpclient.HttpRequest;
+import cz.msebera.android.httpclient.HttpResponse;
+import cz.msebera.android.httpclient.client.ClientProtocolException;
+import cz.msebera.android.httpclient.client.HttpClient;
+import cz.msebera.android.httpclient.client.ResponseHandler;
+import cz.msebera.android.httpclient.client.methods.HttpUriRequest;
+import cz.msebera.android.httpclient.conn.ClientConnectionManager;
+import cz.msebera.android.httpclient.conn.HttpClientConnectionManager;
+import cz.msebera.android.httpclient.params.HttpParams;
+import cz.msebera.android.httpclient.protocol.HttpContext;
 
 import java.io.IOException;
 

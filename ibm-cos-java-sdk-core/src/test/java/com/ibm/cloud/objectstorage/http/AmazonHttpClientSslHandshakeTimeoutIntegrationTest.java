@@ -25,11 +25,11 @@ import com.ibm.cloud.objectstorage.http.response.NullErrorResponseHandler;
 import com.ibm.cloud.objectstorage.http.response.NullResponseHandler;
 import com.ibm.cloud.objectstorage.http.server.MockServer;
 
-import org.apache.http.HttpHost;
-import org.apache.http.config.SocketConfig;
-import org.apache.http.conn.ConnectTimeoutException;
-import org.apache.http.conn.ManagedHttpClientConnection;
-import org.apache.http.protocol.HttpContext;
+import cz.msebera.android.httpclient.HttpHost;
+import cz.msebera.android.httpclient.config.SocketConfig;
+import cz.msebera.android.httpclient.conn.ConnectTimeoutException;
+import cz.msebera.android.httpclient.conn.ManagedHttpClientConnection;
+import cz.msebera.android.httpclient.protocol.HttpContext;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -65,7 +65,7 @@ public class AmazonHttpClientSslHandshakeTimeoutIntegrationTest extends Unrespon
             /**
              * Http client catches the SocketTimeoutException and throws a
              * ConnectTimeoutException.
-             * {@link org.apache.http.impl.conn.DefaultHttpClientConnectionOperator#connect(ManagedHttpClientConnection, HttpHost, InetSocketAddress, int, SocketConfig, HttpContext)}
+             * {@link cz.msebera.android.httpclient.impl.conn.DefaultHttpClientConnectionOperator#connect(ManagedHttpClientConnection, HttpHost, InetSocketAddress, int, SocketConfig, HttpContext)}
              */
             Assert.assertTrue(e.getCause() instanceof ConnectTimeoutException);
 

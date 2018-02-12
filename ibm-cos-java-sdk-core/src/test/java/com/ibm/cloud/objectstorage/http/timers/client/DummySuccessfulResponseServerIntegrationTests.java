@@ -32,7 +32,7 @@ import com.ibm.cloud.objectstorage.http.server.MockServer;
 import com.ibm.cloud.objectstorage.http.settings.HttpClientSettings;
 import com.ibm.cloud.objectstorage.http.timers.client.ClientExecutionTimeoutException;
 
-import org.apache.http.pool.ConnPoolControl;
+import cz.msebera.android.httpclient.pool.ConnPoolControl;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

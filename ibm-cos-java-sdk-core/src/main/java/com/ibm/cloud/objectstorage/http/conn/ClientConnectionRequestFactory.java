@@ -21,7 +21,7 @@ import java.lang.reflect.Proxy;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.conn.ConnectionRequest;
+import cz.msebera.android.httpclient.conn.ConnectionRequest;
 
 import com.ibm.cloud.objectstorage.metrics.AwsSdkMetrics;
 import com.ibm.cloud.objectstorage.metrics.ServiceLatencyProvider;

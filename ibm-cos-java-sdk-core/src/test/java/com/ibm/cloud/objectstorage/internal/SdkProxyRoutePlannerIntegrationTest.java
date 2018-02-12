@@ -21,10 +21,10 @@ import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.UUID;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpUriRequest;
+import cz.msebera.android.httpclient.HttpResponse;
+import cz.msebera.android.httpclient.client.HttpClient;
+import cz.msebera.android.httpclient.client.methods.HttpGet;
+import cz.msebera.android.httpclient.client.methods.HttpUriRequest;
 import org.junit.Assert;
 import org.junit.Test;
 

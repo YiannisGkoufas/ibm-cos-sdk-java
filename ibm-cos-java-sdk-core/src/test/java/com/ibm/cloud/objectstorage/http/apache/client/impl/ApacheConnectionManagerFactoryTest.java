@@ -15,7 +15,7 @@
 package com.ibm.cloud.objectstorage.http.apache.client.impl;
 
 
-import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+import cz.msebera.android.httpclient.impl.conn.PoolingHttpClientConnectionManager;
 import org.junit.Test;
 
 import com.ibm.cloud.objectstorage.ClientConfiguration;

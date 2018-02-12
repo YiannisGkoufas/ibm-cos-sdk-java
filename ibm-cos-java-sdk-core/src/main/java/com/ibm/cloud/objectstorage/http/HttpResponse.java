@@ -14,8 +14,8 @@
  */
 package com.ibm.cloud.objectstorage.http;
 
-import org.apache.http.client.methods.HttpRequestBase;
-import org.apache.http.protocol.HttpContext;
+import cz.msebera.android.httpclient.client.methods.HttpRequestBase;
+import cz.msebera.android.httpclient.protocol.HttpContext;
 
 import com.ibm.cloud.objectstorage.Request;
 import com.ibm.cloud.objectstorage.util.CRC32ChecksumCalculatingInputStream;

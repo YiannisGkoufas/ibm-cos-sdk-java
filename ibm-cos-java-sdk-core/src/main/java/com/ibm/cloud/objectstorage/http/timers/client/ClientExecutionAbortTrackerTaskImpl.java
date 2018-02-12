@@ -16,7 +16,7 @@ package com.ibm.cloud.objectstorage.http.timers.client;
 
 import java.util.concurrent.ScheduledFuture;
 
-import org.apache.http.client.methods.HttpRequestBase;
+import cz.msebera.android.httpclient.client.methods.HttpRequestBase;
 
 import com.ibm.cloud.objectstorage.annotation.SdkInternalApi;
 import com.ibm.cloud.objectstorage.util.ValidationUtils;

@@ -16,11 +16,11 @@ package com.ibm.cloud.objectstorage.http.apache.client.impl;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.HttpResponseInterceptor;
-import org.apache.http.conn.ConnectionKeepAliveStrategy;
-import org.apache.http.conn.HttpClientConnectionManager;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.client.HttpClients;
+import cz.msebera.android.httpclient.HttpResponseInterceptor;
+import cz.msebera.android.httpclient.conn.ConnectionKeepAliveStrategy;
+import cz.msebera.android.httpclient.conn.HttpClientConnectionManager;
+import cz.msebera.android.httpclient.impl.client.HttpClientBuilder;
+import cz.msebera.android.httpclient.impl.client.HttpClients;
 
 import com.ibm.cloud.objectstorage.http.AmazonHttpClient;
 import com.ibm.cloud.objectstorage.http.IdleConnectionReaper;

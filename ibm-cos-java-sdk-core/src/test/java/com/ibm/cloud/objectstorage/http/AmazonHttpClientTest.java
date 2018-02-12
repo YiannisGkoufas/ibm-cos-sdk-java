@@ -23,13 +23,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URI;
 
-import org.apache.http.ProtocolVersion;
-import org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
-import org.apache.http.client.methods.HttpRequestBase;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.entity.BasicHttpEntity;
-import org.apache.http.message.BasicHttpResponse;
-import org.apache.http.protocol.HttpContext;
+import cz.msebera.android.httpclient.ProtocolVersion;
+import cz.msebera.android.httpclient.client.methods.HttpEntityEnclosingRequestBase;
+import cz.msebera.android.httpclient.client.methods.HttpRequestBase;
+import cz.msebera.android.httpclient.client.methods.HttpUriRequest;
+import cz.msebera.android.httpclient.entity.BasicHttpEntity;
+import cz.msebera.android.httpclient.message.BasicHttpResponse;
+import cz.msebera.android.httpclient.protocol.HttpContext;
 import org.easymock.Capture;
 import org.easymock.EasyMock;
 import org.easymock.IAnswer;
@@ -336,10 +336,10 @@ public class AmazonHttpClientTest {
                 .expect(httpClient.execute(
                         EasyMock.<HttpUriRequest>anyObject(),
                         EasyMock.<HttpContext>anyObject()))
-                .andAnswer(new IAnswer<org.apache.http.HttpResponse>() {
+                .andAnswer(new IAnswer<cz.msebera.android.httpclient.HttpResponse>() {
 
                     @Override
-                    public org.apache.http.HttpResponse answer()
+                    public cz.msebera.android.httpclient.HttpResponse answer()
                             throws Throwable {
 
                         HttpEntityEnclosingRequestBase request =

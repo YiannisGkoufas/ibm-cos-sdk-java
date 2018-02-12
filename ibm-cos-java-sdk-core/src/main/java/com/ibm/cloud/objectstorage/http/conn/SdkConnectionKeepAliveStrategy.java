@@ -14,10 +14,10 @@
  */
 package com.ibm.cloud.objectstorage.http.conn;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.conn.ConnectionKeepAliveStrategy;
-import org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy;
-import org.apache.http.protocol.HttpContext;
+import cz.msebera.android.httpclient.HttpResponse;
+import cz.msebera.android.httpclient.conn.ConnectionKeepAliveStrategy;
+import cz.msebera.android.httpclient.impl.client.DefaultConnectionKeepAliveStrategy;
+import cz.msebera.android.httpclient.protocol.HttpContext;
 
 /**
  * The AWS SDK for Java's implementation of the

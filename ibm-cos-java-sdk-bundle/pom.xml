@@ -40,7 +40,7 @@
                             <include>joda-time:joda-time</include>
                             <include>com.fasterxml.jackson.core:*</include>
                             <include>com.fasterxml.jackson.dataformat:jackson-dataformat-cbor</include>
-                            <include>org.apache.httpcomponents:*</include>
+                            <include>cz.msebera.android:*</include>
                             <include>commons-codec:commons-codec</include>
                             <include>software.amazon.ion:ion-java</include>
                             <include>commons-logging:commons-logging</include>
@@ -57,7 +57,7 @@
                             <shadedPattern>com.ibm.cloud.objectstorage.thirdparty.jackson</shadedPattern>
                         </relocation>
                         <relocation>
-                            <pattern>org.apache.http</pattern>
+                            <pattern>cz.msebera.android</pattern>
                             <shadedPattern>com.ibm.cloud.objectstorage.thirdparty.apache.http</shadedPattern>
                         </relocation>
                         <relocation>

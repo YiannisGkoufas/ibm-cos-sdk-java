@@ -16,9 +16,9 @@ package com.ibm.cloud.objectstorage.http.conn.ssl;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.HttpHost;
-import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
-import org.apache.http.protocol.HttpContext;
+import cz.msebera.android.httpclient.HttpHost;
+import cz.msebera.android.httpclient.conn.ssl.SSLConnectionSocketFactory;
+import cz.msebera.android.httpclient.protocol.HttpContext;
 
 import com.ibm.cloud.objectstorage.annotation.ThreadSafe;
 import com.ibm.cloud.objectstorage.internal.SdkMetricsSocket;

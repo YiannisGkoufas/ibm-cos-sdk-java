@@ -14,9 +14,9 @@
  */
 package com.ibm.cloud.objectstorage.http.conn;
 
-import org.apache.http.HttpClientConnection;
-import org.apache.http.conn.ConnectionPoolTimeoutException;
-import org.apache.http.conn.ConnectionRequest;
+import cz.msebera.android.httpclient.HttpClientConnection;
+import cz.msebera.android.httpclient.conn.ConnectionPoolTimeoutException;
+import cz.msebera.android.httpclient.conn.ConnectionRequest;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 

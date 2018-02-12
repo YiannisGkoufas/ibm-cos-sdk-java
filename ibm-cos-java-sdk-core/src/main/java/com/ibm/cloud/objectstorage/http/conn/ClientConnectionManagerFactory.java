@@ -16,9 +16,9 @@ package com.ibm.cloud.objectstorage.http.conn;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.conn.ConnectionRequest;
-import org.apache.http.conn.HttpClientConnectionManager;
-import org.apache.http.pool.ConnPoolControl;
+import cz.msebera.android.httpclient.conn.ConnectionRequest;
+import cz.msebera.android.httpclient.conn.HttpClientConnectionManager;
+import cz.msebera.android.httpclient.pool.ConnPoolControl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;

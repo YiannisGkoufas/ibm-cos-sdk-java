@@ -18,8 +18,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.InputStreamEntity;
+import cz.msebera.android.httpclient.entity.ContentType;
+import cz.msebera.android.httpclient.entity.InputStreamEntity;
 
 import com.ibm.cloud.objectstorage.internal.MetricAware;
 

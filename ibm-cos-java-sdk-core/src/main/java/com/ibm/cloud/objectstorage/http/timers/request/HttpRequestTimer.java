@@ -18,7 +18,7 @@ import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.http.client.methods.HttpRequestBase;
+import cz.msebera.android.httpclient.client.methods.HttpRequestBase;
 
 import com.ibm.cloud.objectstorage.annotation.SdkInternalApi;
 import com.ibm.cloud.objectstorage.annotation.SdkTestInternalApi;

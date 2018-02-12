@@ -17,7 +17,7 @@ package com.ibm.cloud.objectstorage.util;
 import java.io.IOException;
 import java.io.InputStream;
 
-import org.apache.http.client.HttpClient;
+import cz.msebera.android.httpclient.client.HttpClient;
 
 import com.ibm.cloud.objectstorage.internal.SdkFilterInputStream;
 

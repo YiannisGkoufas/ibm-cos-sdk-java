@@ -16,8 +16,8 @@ package com.ibm.cloud.objectstorage.http.impl.client;
 
 import java.io.IOException;
 
-import org.apache.http.impl.client.DefaultHttpRequestRetryHandler;
-import org.apache.http.protocol.HttpContext;
+import cz.msebera.android.httpclient.impl.client.DefaultHttpRequestRetryHandler;
+import cz.msebera.android.httpclient.protocol.HttpContext;
 
 import com.ibm.cloud.objectstorage.annotation.ThreadSafe;
 

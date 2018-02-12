@@ -14,8 +14,8 @@
  */
 package com.ibm.cloud.objectstorage.internal;
 
-import org.apache.http.conn.ssl.SSLContexts;
-import org.apache.http.conn.ssl.SSLInitializationException;
+import cz.msebera.android.httpclient.conn.ssl.SSLContexts;
+import cz.msebera.android.httpclient.conn.ssl.SSLInitializationException;
 
 import javax.net.ssl.SSLContext;
 import java.security.KeyManagementException;

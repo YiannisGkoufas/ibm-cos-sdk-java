@@ -16,7 +16,7 @@ package com.ibm.cloud.objectstorage.http;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.conn.HttpClientConnectionManager;
+import cz.msebera.android.httpclient.conn.HttpClientConnectionManager;
 
 import com.ibm.cloud.objectstorage.annotation.SdkInternalApi;
 import com.ibm.cloud.objectstorage.annotation.SdkTestInternalApi;

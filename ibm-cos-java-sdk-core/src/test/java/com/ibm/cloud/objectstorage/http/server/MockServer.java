@@ -25,12 +25,12 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
 
-import org.apache.http.Header;
-import org.apache.http.HttpResponse;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.entity.BasicHttpEntity;
-import org.apache.http.message.BasicHttpResponse;
-import org.apache.http.message.BasicStatusLine;
+import cz.msebera.android.httpclient.Header;
+import cz.msebera.android.httpclient.HttpResponse;
+import cz.msebera.android.httpclient.ProtocolVersion;
+import cz.msebera.android.httpclient.entity.BasicHttpEntity;
+import cz.msebera.android.httpclient.message.BasicHttpResponse;
+import cz.msebera.android.httpclient.message.BasicStatusLine;
 
 import com.ibm.cloud.objectstorage.util.IOUtils;
 import com.ibm.cloud.objectstorage.util.StringInputStream;

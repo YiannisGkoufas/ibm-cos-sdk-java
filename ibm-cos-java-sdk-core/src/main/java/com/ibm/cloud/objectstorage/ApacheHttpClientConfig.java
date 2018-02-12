@@ -14,7 +14,7 @@
  */
 package com.ibm.cloud.objectstorage;
 
-import org.apache.http.conn.socket.ConnectionSocketFactory;
+import cz.msebera.android.httpclient.conn.socket.ConnectionSocketFactory;
 
 import com.ibm.cloud.objectstorage.annotation.NotThreadSafe;
 

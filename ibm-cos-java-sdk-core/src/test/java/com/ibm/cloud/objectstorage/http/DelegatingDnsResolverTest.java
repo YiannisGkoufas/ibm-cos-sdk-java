@@ -102,7 +102,7 @@ public class DelegatingDnsResolverTest {
             }
         };
 
-        org.apache.http.conn.DnsResolver resolver = new DelegatingDnsResolver(delegate);
+        cz.msebera.android.httpclient.conn.DnsResolver resolver = new DelegatingDnsResolver(delegate);
 
         resolver.resolve("localhost");
 

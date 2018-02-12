@@ -16,8 +16,8 @@ package com.ibm.cloud.objectstorage.http;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.entity.BasicHttpEntity;
-import org.apache.http.entity.InputStreamEntity;
+import cz.msebera.android.httpclient.entity.BasicHttpEntity;
+import cz.msebera.android.httpclient.entity.InputStreamEntity;
 
 import com.ibm.cloud.objectstorage.Request;
 import com.ibm.cloud.objectstorage.metrics.MetricInputStreamEntity;

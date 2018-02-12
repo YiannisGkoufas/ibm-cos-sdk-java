@@ -23,9 +23,9 @@ import com.ibm.cloud.objectstorage.util.IOUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpRequestBase;
-import org.apache.http.conn.EofSensorInputStream;
+import cz.msebera.android.httpclient.client.HttpClient;
+import cz.msebera.android.httpclient.client.methods.HttpRequestBase;
+import cz.msebera.android.httpclient.conn.EofSensorInputStream;
 
 /**
  * Input stream representing the content of an {@link S3Object}. In addition to

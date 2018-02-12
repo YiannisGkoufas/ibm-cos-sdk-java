@@ -21,19 +21,19 @@ package com.ibm.cloud.objectstorage.http.response;
 import java.io.IOException;
 import java.util.Locale;
 
-import org.apache.http.Header;
-import org.apache.http.HeaderIterator;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.StatusLine;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.params.HttpParams;
+import cz.msebera.android.httpclient.Header;
+import cz.msebera.android.httpclient.HeaderIterator;
+import cz.msebera.android.httpclient.HttpEntity;
+import cz.msebera.android.httpclient.HttpResponse;
+import cz.msebera.android.httpclient.ProtocolVersion;
+import cz.msebera.android.httpclient.StatusLine;
+import cz.msebera.android.httpclient.client.methods.CloseableHttpResponse;
+import cz.msebera.android.httpclient.params.HttpParams;
 
 import com.ibm.cloud.objectstorage.annotation.NotThreadSafe;
 
 /**
- * A proxy class for {@link org.apache.http.HttpResponse}.
+ * A proxy class for {@link cz.msebera.android.httpclient.HttpResponse}.
  */
 @NotThreadSafe
 public class HttpResponseProxy implements CloseableHttpResponse {

@@ -350,7 +350,8 @@ public enum AwsSdkMetrics {
     /** Exports AwsSdkMetrics for JMX access. */
     static {
         try {
-            registerMetricAdminMBean();
+            //Disable for Android
+            //registerMetricAdminMBean();
         } catch(Exception ex) {
             LogFactory.getLog(AwsSdkMetrics.class).warn("", ex);
         }

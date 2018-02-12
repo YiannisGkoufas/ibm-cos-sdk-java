@@ -14,19 +14,19 @@
  */
 package com.ibm.cloud.objectstorage.http.apache.utils;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpHost;
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.Credentials;
-import org.apache.http.auth.NTCredentials;
-import org.apache.http.client.AuthCache;
-import org.apache.http.client.CredentialsProvider;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.entity.BufferedHttpEntity;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.auth.BasicScheme;
-import org.apache.http.impl.client.BasicAuthCache;
-import org.apache.http.impl.client.BasicCredentialsProvider;
+import cz.msebera.android.httpclient.HttpEntity;
+import cz.msebera.android.httpclient.HttpHost;
+import cz.msebera.android.httpclient.auth.AuthScope;
+import cz.msebera.android.httpclient.auth.Credentials;
+import cz.msebera.android.httpclient.auth.NTCredentials;
+import cz.msebera.android.httpclient.client.AuthCache;
+import cz.msebera.android.httpclient.client.CredentialsProvider;
+import cz.msebera.android.httpclient.client.protocol.HttpClientContext;
+import cz.msebera.android.httpclient.entity.BufferedHttpEntity;
+import cz.msebera.android.httpclient.entity.StringEntity;
+import cz.msebera.android.httpclient.impl.auth.BasicScheme;
+import cz.msebera.android.httpclient.impl.client.BasicAuthCache;
+import cz.msebera.android.httpclient.impl.client.BasicCredentialsProvider;
 
 import com.ibm.cloud.objectstorage.SdkClientException;
 import com.ibm.cloud.objectstorage.http.settings.HttpClientSettings;

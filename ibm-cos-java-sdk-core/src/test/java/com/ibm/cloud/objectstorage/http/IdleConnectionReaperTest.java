@@ -18,10 +18,10 @@
  */
 package com.ibm.cloud.objectstorage.http;
 
-import org.apache.http.HttpClientConnection;
-import org.apache.http.conn.ConnectionRequest;
-import org.apache.http.conn.HttpClientConnectionManager;
-import org.apache.http.protocol.HttpContext;
+import cz.msebera.android.httpclient.HttpClientConnection;
+import cz.msebera.android.httpclient.conn.ConnectionRequest;
+import cz.msebera.android.httpclient.conn.HttpClientConnectionManager;
+import cz.msebera.android.httpclient.protocol.HttpContext;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -33,11 +33,11 @@ import static org.mockito.Mockito.verify;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.http.conn.ClientConnectionManager;
-import org.apache.http.conn.ClientConnectionRequest;
-import org.apache.http.conn.ManagedClientConnection;
-import org.apache.http.conn.routing.HttpRoute;
-import org.apache.http.conn.scheme.SchemeRegistry;
+import cz.msebera.android.httpclient.conn.ClientConnectionManager;
+import cz.msebera.android.httpclient.conn.ClientConnectionRequest;
+import cz.msebera.android.httpclient.conn.ManagedClientConnection;
+import cz.msebera.android.httpclient.conn.routing.HttpRoute;
+import cz.msebera.android.httpclient.conn.scheme.SchemeRegistry;
 import org.junit.Before;
 import org.junit.Test;
 

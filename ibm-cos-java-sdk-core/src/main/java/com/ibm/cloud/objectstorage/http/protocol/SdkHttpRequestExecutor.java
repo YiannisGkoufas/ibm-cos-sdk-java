@@ -17,13 +17,13 @@ package com.ibm.cloud.objectstorage.http.protocol;
 import java.io.IOException;
 import java.net.Socket;
 
-import org.apache.http.HttpClientConnection;
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.conn.ManagedHttpClientConnection;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpRequestExecutor;
+import cz.msebera.android.httpclient.HttpClientConnection;
+import cz.msebera.android.httpclient.HttpException;
+import cz.msebera.android.httpclient.HttpRequest;
+import cz.msebera.android.httpclient.HttpResponse;
+import cz.msebera.android.httpclient.conn.ManagedHttpClientConnection;
+import cz.msebera.android.httpclient.protocol.HttpContext;
+import cz.msebera.android.httpclient.protocol.HttpRequestExecutor;
 
 import com.ibm.cloud.objectstorage.internal.SdkMetricsSocket;
 import com.ibm.cloud.objectstorage.internal.SdkSSLMetricsSocket;

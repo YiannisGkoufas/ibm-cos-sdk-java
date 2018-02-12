@@ -23,7 +23,7 @@ import com.ibm.cloud.objectstorage.http.request.EmptyHttpRequest;
 import com.ibm.cloud.objectstorage.http.response.EmptyAWSResponseHandler;
 import com.ibm.cloud.objectstorage.http.server.MockServer;
 
-import org.apache.http.conn.ConnectionPoolTimeoutException;
+import cz.msebera.android.httpclient.conn.ConnectionPoolTimeoutException;
 import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
